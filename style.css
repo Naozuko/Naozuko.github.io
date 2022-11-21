@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sono', sans-serif;
+}
+.index-page{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(80, 9, 64, 0.7),rgba(77, 12, 57, 0.7)),url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+    position: relative;
+    top: -10px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 70px;
+    position: relative;
+    background: rgb(20, 169, 228);
+    border-radius: 15px 50px;
+}
+
+.nav-links ul li a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(219, 40, 180);
+    display: block;
+    margin: auto;
+    transition: 0.75s;
+}
+.nav-links ul li:hover:after{
+    width: 100%;
+}
+
+/* ------ Blog ------ */
+.blog{
+    height: 200px;
+    width: auto;
+    overflow: auto;
+    padding:2%;
+    background: rgb(153, 0, 255, .2);
+    min-height: 70vh;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 25px;
+}
+
+.blog-content{
+    margin-left: 150px;
+    height: auto;
+}
+
+.blog-content li{
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    list-style: none;
+    padding: 100px;
+    text-align: left;
+}
+.blog-img{
+    margin-right: 1100px;
+    margin-top: -880px;
+}
+.blog-img img{
+    width: 200px;
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    }
+    
+::-webkit-scrollbar-track {
+    border: 1px solid rgb(20, 169, 228);
+    border-radius: 25px;
+    }
+    
+::-webkit-scrollbar-thumb {
+    background: rgb(20, 169, 228);  
+    border-radius: 25px;
+    }
+    
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(35, 137, 177);  
+    }
+
+/* -------- About me ------- */
+
+.aboutboard{
+    height: 200px;
+    width: auto;
+    overflow: hidden;
+    padding:1%;
+    min-height: 70vh;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 25px;
+}
+
+.aboutboard h4{
+    padding-left: 2%;
+    text-align: left;
+    font-size: medium;
+}
+.aboutboard b{
+    color:black;
+    font-size: large;
+}
+
+.innerlefttop{
+    color:white;
+    height: 318px;
+    background: rgb(153, 0, 255, .2);
+    margin-right: 685px;
+    position: relative;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid rgb(20, 169, 228);
+}
+
+.innerrighttop{
+    color:white;
+    height: 318px;
+    background: rgb(153, 0, 255, .2);
+    position: relative;
+    top: -318px;
+    right: -679px;
+    margin-right: 681px;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid rgb(20, 169, 228);
+}
+
+.innerleftbot{
+    color:white;
+    position: relative;
+    top: -298px;
+    background: rgb(153, 0, 255, .2);
+    margin-right: 685px;
+    height: 318px;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid rgb(20, 169, 228);
+}
+
+.innerrightbot{
+    color:white;
+    height: 318px;
+    background: rgb(153, 0, 255, .2);
+    position: relative;
+    top: -616px;
+    right: -679px;
+    margin-right: 681px;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid rgb(20, 169, 228);
+}
+
+
+
+
+/* ------ contact ------ */
+.contact-page{
+    min-height: 100vh;
+    max-width: 100%;
+    background-image: linear-gradient(rgba(80, 9, 64, 0.7),rgba(77, 12, 57, 0.7)),url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.contact{
+    height: 100px;
+    width: auto;
+    padding:2%;
+    background: rgb(153, 0, 255, .2);
+    min-height: 35vh;
+    margin-left: 250px;
+    margin-right: 900px;
+    border-radius: 25px;
+}
+
+.contact-content li{
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+}
+
+.contactimg{
+    height: 100px;
+    width: auto;
+    border-radius: 25px;
+    position: relative;
+    top: -400px;
+    right: -600px;
+}
+
+.contact-imgs img{
+    width: 1200px;
+    position: relative;
+    left: -100px;
+    top: -50px;
+}
+
+/* reference */
+
+.reference{
+    height: 100px;
+    width: 800px;
+    padding:2%;
+    background: rgb(153, 0, 255, .2);
+    min-height: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    
+}
+.reference h1, h4{
+    color: azure;
+}
+
+.reference table, th, td{
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.reference th, td {
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(4, 226, 189);
+}
+
+.reference td a{
+    color: rgb(250, 8, 197);
+
+}
+.reference td{
+    color: rgb(250, 8, 197);
+}
+
+.image-sect{
+    height: 100px;
+    width: auto;
+    border-radius: 25px;
+    position: relative;
+    top: -400px;
+    right: -600px;
+}
+
+.image-imgs img{
+    width: 700px;
+    position: absolute;
+    left: -500px;
+    top: 23px;
+    z-index: 1;
+}
